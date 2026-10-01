@@ -1,0 +1,12 @@
+# The library of damstack: the platforms and apps it offers. damstack reads
+# this file, at most once an hour. A stack joins with a pull request.
+stacks:
+  - name: hashi
+    url: https://github.com/eugene-panin/damstack-hashi
+    description: Nomad, Consul and Vault on one server, admin pages behind WireGuard
+
+  - name: mail
+    kind: app
+    platform: hashi
+    url: https://github.com/eugene-panin/damstack-mail
+    description: your own mail server, by Stalwart
