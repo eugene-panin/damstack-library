@@ -10,3 +10,15 @@ stacks:
     platform: hashi
     url: https://github.com/eugene-panin/damstack-mail
     description: your own mail server, by Stalwart
+
+  - name: odoo
+    kind: app
+    platform: hashi
+    url: https://github.com/eugene-panin/damstack-odoo
+    description: Odoo ERP with its PostgreSQL and the Newo addons
+
+  - name: postgres
+    kind: app
+    platform: hashi
+    url: https://github.com/eugene-panin/damstack-postgres
+    description: a shared PostgreSQL other apps use in postgres.mode external
