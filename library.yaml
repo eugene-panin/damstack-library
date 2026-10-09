@@ -15,7 +15,7 @@ stacks:
     kind: app
     platform: hashi
     url: https://github.com/eugene-panin/damstack-odoo
-    description: Odoo ERP with its PostgreSQL and the Newo addons
+    description: Odoo ERP with its PostgreSQL and your addons
 
   - name: postgres
     kind: app
