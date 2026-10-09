@@ -22,3 +22,33 @@ stacks:
     platform: hashi
     url: https://github.com/eugene-panin/damstack-postgres
     description: a shared PostgreSQL other apps use in postgres.mode external
+
+  - name: nats
+    kind: app
+    platform: hashi
+    url: https://github.com/eugene-panin/damstack-nats
+    description: a shared NATS (JetStream) bus other apps publish and subscribe on
+
+  - name: seaweedfs
+    kind: app
+    platform: hashi
+    url: https://github.com/eugene-panin/damstack-seaweedfs
+    description: a shared SeaweedFS object lake with an S3 API
+
+  - name: loki
+    kind: app
+    platform: hashi
+    url: https://github.com/eugene-panin/damstack-loki
+    description: a shared Loki log store
+
+  - name: mimir
+    kind: app
+    platform: hashi
+    url: https://github.com/eugene-panin/damstack-mimir
+    description: a shared Mimir metric store
+
+  - name: grafana
+    kind: app
+    platform: hashi
+    url: https://github.com/eugene-panin/damstack-grafana
+    description: Grafana for the platform, with Mimir and Loki data sources
